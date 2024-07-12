@@ -1,2 +1,9 @@
 # EDX-Intro-To-Kubernetes
 Notes from the EDX LFS158x Course (Intro to Kubernetes)
+
+## Chapters
+
+1. From Monolith to Microservices
+2. Container Orchestration
+3. Kubernetes
+4. Kubernetes Architecture
