@@ -8,3 +8,4 @@ Notes from the EDX LFS158x Course (Intro to Kubernetes)
 3. Kubernetes
 4. Kubernetes Architecture
 5. Installing Kubernetes
+6. Minikube
