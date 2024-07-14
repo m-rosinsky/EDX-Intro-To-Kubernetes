@@ -1,12 +1,3 @@
-## Deployments
-
-<b>Deployment</b> objects provide declarative updates to Pods and ReplicaSets.
-
-It allows for seamless application updates and rollbacks, known as the default <b>RollingUpdate</b> strategy.
-
-A base deployment manifest:
-
-```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -28,5 +19,3 @@ spec:
         image: nginx:1.20.2
         ports:
         - containerPort: 80
-```
-

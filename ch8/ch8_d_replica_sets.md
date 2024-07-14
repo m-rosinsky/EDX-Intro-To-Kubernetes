@@ -17,23 +17,23 @@ Here is a sample object manifest `redis-rs.yaml`:
 apiVersion: v1
 kind: ReplicaSet
 metadata:
-    name: frontend
-    labels:
-        app: guestbook
-        tier: frontend
+  name: frontend
+  labels:
+    app: guestbook
+    tier: frontend
 spec:
-    replicas: 3
-    selector:
-        matchLabels:
-            app: guestbook
-    template:
-        metadata:
-            labels:
-                app: guestbook
-        spec:
-            contianers:
-            - name: php-redis
-              image: gcr.io/google_samples/gb-frontend:v3
+  replicas: 3
+  selector:
+    matchLabels:
+      app: guestbook
+  template:
+    metadata:
+      labels:
+        app: guestbook
+    spec:
+      contianers:
+      - name: php-redis
+        image: gcr.io/google_samples/gb-frontend:v3
 ```
 
 ```
