@@ -12,3 +12,4 @@ Notes from the EDX LFS158x Course (Intro to Kubernetes)
 7. Accessing Minikube
 8. Kubernetes Building Blocks
 9. Authentication, Authorization, Admission Control
+10. Services
